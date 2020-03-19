@@ -30,7 +30,7 @@ function countingValleys(n, s) {
   const max = 1000000;
   let isInValley = false;
   let valleys = 0;
-  s = (typeof s === "string") ? s.split('') : s;
+  s = s.split('');;
  
   if (s.length >= min
     && s.length <= max
